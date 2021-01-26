@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  Five-Banis
+
+  Created by RATTANDEEP SINGH on 29/12/20.
+  
+*/
+
+"JapjiSahib" = "Japji Sahib";
+"JaapSahib" = "Jaap Sahib";
+"TavPrasadSavaiye" = "Tav-Prasad Savaiye";
+"ChaupaiSahib" = "Chaupai Sahib";
+"AnandSahib" = "Anand Sahib";
+
+"English" = "English";
+"Hindi" = "Hindi";
+
+"Languages" = "Languages";
+"Settings" = "Settings";
+"Paath" = "Paath";
+
+"FiveBaanis" = "Five Baani's";
+
+"JapjiSahibContent" = "--";
+
+"JaapSahibContent" = "--";
+
+"TavPrasadSavaiyeContent" = "--";
+
+"ChaupaiSahibContent" = "--";
+
+"AnandSahibContent" = "--";

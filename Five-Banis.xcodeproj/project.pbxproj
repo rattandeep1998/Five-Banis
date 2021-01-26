@@ -11,6 +11,15 @@
 		44356C03259B2B5300C4199B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C02259B2B5300C4199B /* ContentView.swift */; };
 		44356C05259B2B5500C4199B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44356C04259B2B5500C4199B /* Assets.xcassets */; };
 		44356C08259B2B5500C4199B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44356C07259B2B5500C4199B /* Preview Assets.xcassets */; };
+		44356C11259B2F8100C4199B /* Paath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C10259B2F8100C4199B /* Paath.swift */; };
+		44356C14259B32EC00C4199B /* PaathCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C13259B32EC00C4199B /* PaathCell.swift */; };
+		44356C17259B33D200C4199B /* PaathContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C16259B33D200C4199B /* PaathContent.swift */; };
+		44356C2F259B440F00C4199B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 44356C31259B440F00C4199B /* Localizable.strings */; };
+		44356C3A259B47BC00C4199B /* FiveBanisStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C39259B47BC00C4199B /* FiveBanisStrings.swift */; };
+		44356C3D259B48E500C4199B /* FiveBanisHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C3C259B48E500C4199B /* FiveBanisHelper.swift */; };
+		44356C44259B9DA300C4199B /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C43259B9DA300C4199B /* AppView.swift */; };
+		44356C47259B9DD100C4199B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C46259B9DD100C4199B /* SettingsView.swift */; };
+		44356C4C259BA2E300C4199B /* LanguageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44356C4B259BA2E300C4199B /* LanguageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +29,16 @@
 		44356C04259B2B5500C4199B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44356C07259B2B5500C4199B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		44356C09259B2B5500C4199B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44356C10259B2F8100C4199B /* Paath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paath.swift; sourceTree = "<group>"; };
+		44356C13259B32EC00C4199B /* PaathCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaathCell.swift; sourceTree = "<group>"; };
+		44356C16259B33D200C4199B /* PaathContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaathContent.swift; sourceTree = "<group>"; };
+		44356C30259B440F00C4199B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44356C33259B441400C4199B /* hi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = hi; path = hi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		44356C39259B47BC00C4199B /* FiveBanisStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveBanisStrings.swift; sourceTree = "<group>"; };
+		44356C3C259B48E500C4199B /* FiveBanisHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveBanisHelper.swift; sourceTree = "<group>"; };
+		44356C43259B9DA300C4199B /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		44356C46259B9DD100C4199B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		44356C4B259BA2E300C4199B /* LanguageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +72,10 @@
 			isa = PBXGroup;
 			children = (
 				44356C00259B2B5300C4199B /* Five_BanisApp.swift */,
-				44356C02259B2B5300C4199B /* ContentView.swift */,
+				44356C43259B9DA300C4199B /* AppView.swift */,
+				44356C4F259BA4DB00C4199B /* FiveBanis */,
+				44356C49259BA2B600C4199B /* Settings */,
+				44356C50259BA4F300C4199B /* Helpers */,
 				44356C04259B2B5500C4199B /* Assets.xcassets */,
 				44356C09259B2B5500C4199B /* Info.plist */,
 				44356C06259B2B5500C4199B /* Preview Content */,
@@ -67,6 +89,60 @@
 				44356C07259B2B5500C4199B /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44356C49259BA2B600C4199B /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				44356C46259B9DD100C4199B /* SettingsView.swift */,
+				44356C4A259BA2BD00C4199B /* Language */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		44356C4A259BA2BD00C4199B /* Language */ = {
+			isa = PBXGroup;
+			children = (
+				44356C4B259BA2E300C4199B /* LanguageView.swift */,
+			);
+			path = Language;
+			sourceTree = "<group>";
+		};
+		44356C4F259BA4DB00C4199B /* FiveBanis */ = {
+			isa = PBXGroup;
+			children = (
+				44356C52259BA54000C4199B /* Home */,
+				44356C51259BA52A00C4199B /* PaathContent */,
+			);
+			path = FiveBanis;
+			sourceTree = "<group>";
+		};
+		44356C50259BA4F300C4199B /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				44356C3C259B48E500C4199B /* FiveBanisHelper.swift */,
+				44356C39259B47BC00C4199B /* FiveBanisStrings.swift */,
+				44356C31259B440F00C4199B /* Localizable.strings */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44356C51259BA52A00C4199B /* PaathContent */ = {
+			isa = PBXGroup;
+			children = (
+				44356C16259B33D200C4199B /* PaathContent.swift */,
+			);
+			path = PaathContent;
+			sourceTree = "<group>";
+		};
+		44356C52259BA54000C4199B /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				44356C02259B2B5300C4199B /* ContentView.swift */,
+				44356C13259B32EC00C4199B /* PaathCell.swift */,
+				44356C10259B2F8100C4199B /* Paath.swift */,
+			);
+			path = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -110,6 +186,7 @@
 			knownRegions = (
 				en,
 				Base,
+				hi,
 			);
 			mainGroup = 44356BF4259B2B5300C4199B;
 			productRefGroup = 44356BFE259B2B5300C4199B /* Products */;
@@ -127,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44356C08259B2B5500C4199B /* Preview Assets.xcassets in Resources */,
+				44356C2F259B440F00C4199B /* Localizable.strings in Resources */,
 				44356C05259B2B5500C4199B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,12 +216,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44356C14259B32EC00C4199B /* PaathCell.swift in Sources */,
 				44356C03259B2B5300C4199B /* ContentView.swift in Sources */,
 				44356C01259B2B5300C4199B /* Five_BanisApp.swift in Sources */,
+				44356C47259B9DD100C4199B /* SettingsView.swift in Sources */,
+				44356C4C259BA2E300C4199B /* LanguageView.swift in Sources */,
+				44356C17259B33D200C4199B /* PaathContent.swift in Sources */,
+				44356C44259B9DA300C4199B /* AppView.swift in Sources */,
+				44356C3A259B47BC00C4199B /* FiveBanisStrings.swift in Sources */,
+				44356C3D259B48E500C4199B /* FiveBanisHelper.swift in Sources */,
+				44356C11259B2F8100C4199B /* Paath.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44356C31259B440F00C4199B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44356C30259B440F00C4199B /* en */,
+				44356C33259B441400C4199B /* hi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		44356C0A259B2B5500C4199B /* Debug */ = {
